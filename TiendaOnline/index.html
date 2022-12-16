@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoOnline.com</title>
+  <!--Linck CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--Header-->
+  <header>
+    <div class="Barra">
+      <h1>TodoOnline.com</h1>
+      <a href="#btn1"><button>INICIO</button></a>
+      <a href="#btn2"><button>CONTACTO</button></a>
+      <a href="#btn3"><button>PRODUCTOS</button></a>
+      <a href="#btn4"><button>UBICACION</button></a>
+      <div class="flexsearch">
+        <div class="flexsearch--wrapper">
+          <form class="flexsearch--form" action="#" method="post">
+            <div class="flexsearch--input-wrapper">
+              <input class="flexsearch--input" type="search" placeholder="search">
+              <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+            </div>
+          </form>
+        </div>
+      </div>
+		</div>
+</div>
+    </div>
+  </header>
+  <hr>
+  <h2 class="select-title">Catalogo de Productos</h2>
+  <section class="shop-conteiner">
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/producto2MiniPC.jpg" alt="" class="product-img">
+        <h2 class="product-title">Mini PC Bangho </h2><!--BOX 1-->
+        <span class="prece">$191.100</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+
+    </div>
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/producto1.jpg" alt="" class="product-img">
+        <h2 class="product-title">Laptop Gamer Asus</h2><!--BOX 2-->
+        <span class="prece">$318.000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/producto3.jpg" alt="" class="product-img">
+        <h2 class="product-title">PlayStation2(PS2)</h2><!--BOX 3-->
+        <span class="prece">$50.000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/producto4.jpg" alt="" class="product-img">
+        <h2 class="product-title">X-Box Clasic</h2><!--BOX 4-->
+        <span class="prece">$100,000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/Producto9-HW.jpg" alt="" class="product-img">
+        <h2 class="product-title">HW Tesla Model3</h2><!--BOX 5-->
+        <span class="prece">$650</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/Producto8-Silla.png" alt="" class="product-img">
+        <h2 class="product-title">Silla ergonomica Gamer</h2><!--BOX 6-->
+        <span class="prece">$50,000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/producto7Auricular.jpg" alt="" class="product-img">
+        <h2 class="product-title">Hauriculares Gamer Scorpio</h2><!--BOX 8-->
+        <span class="prece">$2,000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/producto6.png" alt="" class="product-img">
+        <h2 class="product-title">Gabinete Gamer Armado</h2><!--BOX 9-->
+        <span class="prece">$98,000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="cart-solid.png" class="carrito"/>
+      </div>
+    </div>
+    
+  
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/producto5.png" alt="" class="product-img">
+        <h2 class="product-title">Apple Iphone 14 (128 MB)</h2><!--BOX 10-->
+        <span class="prece">$407,000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/Producto10.jpg" alt="" class="product-img">
+        <h2 class="product-title">PlayStation 3</h2><!--BOX 10-->
+        <span class="prece">$85,000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/producto12Noblex-SMART.jpg" alt="" class="product-img">
+        <h2 class="product-title">Noblex SMART-TV 55''</h2><!--BOX 10-->
+        <span class="prece">$100,000</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+    <div class="shop-content">
+      <div class="product-box">
+        <img src="img/Producto11-XBox.jpg" alt="" class="product-img">
+        <h2 class="product-title">X-Box 360</h2><!--BOX 10-->
+        <span class="prece">$88,500</span><hr><button class="comprarBTN">COMPRAR</button>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+      </div>
+    </div>
+  </div>
+  <div class="shop-content">
+    <div class="product-box">
+      <img src="img/Producto14X-Box SerieX.jpg" alt="" class="product-img">
+      <h2 class="product-title">X-Box SeriesX</h2><!--BOX 10-->
+      <span class="prece">$105,000</span><hr><button class="comprarBTN">COMPRAR</button>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+    </div>
+  </div>
+</div>
+<div class="shop-content">
+  <div class="product-box">
+    <img src="img/Producto13-ps5.png" alt="" class="product-img">
+    <h2 class="product-title">PlayStation5 (Digital-Edition)</h2><!--BOX 10-->
+    <span class="prece">$105,000</span><hr><button class="comprarBTN">COMPRAR</button>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+  </div>
+</div>
+</div>
+<div class="shop-content">
+  <div class="product-box">
+    <img src="img/Producto15nintendo-switch.jpg" alt="" class="product-img">
+    <h2 class="product-title">Ninterndo Switch</h2><!--BOX 10-->
+    <span class="prece">$195,000</span><hr><button class="comprarBTN">COMPRAR</button>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+  </div>
+</div>
+</div>
+<div class="shop-content">
+  <div class="product-box">
+    <img src="img/Producto15-SEGAGenesis.jpg" alt="" class="product-img">
+    <h2 class="product-title">SEGA Genecis 16-Bits</h2><!--BOX 10-->
+    <span class="prece">$15,599</span><hr><button class="comprarBTN">COMPRAR</button>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAxJJREFUWEeVl6FvFUEQxn9D8K8KS6sRUImCEjRtLYhSiWr7B5BCQoLk4XCAQgLBkyoUCU8QBIZXUYGiSNSSvd29nZ3bvXu9pO/du5udb3bmm2+2wgqXAK5hZ98NbJuLBf/KXNo636e77rvyo4URIFw1+CF44Rji2i5ACyxOZSSuEwFXTZNAsSD4G937ClWZdtCojQZ/AhwrT0uEfRwnw8JII5HRsgcLN/ozpdJnqAAX4TikrF99LrDh4Lye83qlk9Na9j0HPAO8jQa/Dfg/f60j7MUSHSHMM2PS8pQPE8BYa2gCGXCb3XNghrDEsREYJ4jLzK3iDGJpl2hAOEX2uYMDnxzBbTnhxPZLe5OZ2aVN2UoR3KQy2KwL/Ep0qbLeEKteiKLFPIl3cSy6mtciUz4/ANvdjpXhaFmLKFPzFxL5FPCd5V2WjaDXCuw4eH/hXi+iE0ScFp5NhIXfUEj7OEOX4K5O2hkylgGHsoKcOtx6guzAa9jq2SHwYqx3W5nJUtt7OwLmmhvhvibK4dka8CcaRYmw+zIa791p3c/mvmWXQ/CGZsS0vAH2itSXXdPnLzG4om4fgR3DqRXoJNzA8a23tHUaDqya033Ab0K50TKTBnWFBAILB9dXCFV7T+n/C6xpdnV9bllcNl4RxUPg9RR4JSme528Bv76s3MUEw083Nws9mqdTf7Lpn9oQZRPcYvDUEsA76phaj8q3yUGN+Zl/g0Fy2k3JrqMiWhzbMe1xWk00fBy1Xp1mtlwj5dgFvEyXV6et04BNAWwL8xQzcu0LjRvnQPd2J04m33qFWqnevgs8EPjp4HkrlFgFA9mO4BrwXTl7BLwqOcwV4Ay4HO0egzyrnfxVl2dEEemmkOJzSv22qd9L4NDEehP4kpVE3uHc/QGxB/O8ueNewi4hfAU2cfwD7iQgM0Q+A1uR4PccfDLZSXwtEYf49sDYrfOOf4D8Dk71aaOf37fiEPGtVr20uIZoInogzyoSdAHOa3e61frnxiAcGrOEJLGeylfeansD/TGq3ZkKuPbv3hhPjL319B/A2DU5lz49yQAAAABJRU5ErkJggg==" class="carrito"/>
+  </div>
+</div>
+</div>
+  <!--carrito-->
+  
+  </section>
+  <div class="Contacto">
+    <hr>
+      <h6>Telefono: +543644909090 | Instagram: TodoOnline_OFFICIAL </h6>
+      <h6>Correo: TodoOnline@gamail.com</h6>
+    </div>
+  <!-- Link To JS-->
+  <script src="main.js"></script>
+</body>
+</html>
